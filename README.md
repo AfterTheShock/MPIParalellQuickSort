@@ -17,7 +17,4 @@ Para ejecutar el programa con una cantidad de nodos determinada:
 mpiexec -n [cantidad de nodos] ./paralellQuickSort
 ```
 ## Tecnologías
-[![My Skills](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
-<div style="text-align: center;">
-  Hola
-</div>
+[![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
