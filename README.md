@@ -16,5 +16,27 @@ Para ejecutar el programa con una cantidad de nodos determinada:
 ```
 mpiexec -n [cantidad de nodos] ./paralellQuickSort
 ```
+## Análisis de Resultados
+Análisis de los resultados con diferentes cantidades de nodos y 50 millones de datos. Todas estas pruebas fueron realizadas en el cluster de la UTN FRM.
+
+<div align="center">
+<img src="https://res.cloudinary.com/dkxjaqheh/image/upload/v1732086668/phumkv3rbuwfnej3ujem.jpg" width="500" height="325">
+
+
+|Nodos           |Tiempo (seg)|Eficiencia(%)   |
+|:--------------:|:----------:|:--------------:|
+|1 (Secuencial)  |2514,045683 |-               |
+|2               |1112,670131 |112,97%         |
+|5               |230,797155  |217,86%         |
+|8               |197,513482  |159,11%         |
+|10              |109,732774  |299,29%         |
+
+</div>
+<hr></hr>
+
+Queda demostrado el uso del procesamiento paralelo para la optimización de algoritmos de ordenamiento.
+
 ## Tecnologías
-[![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
+<div align="center">
+<img src="https://skillicons.dev/icons?i=c">
+</div>
